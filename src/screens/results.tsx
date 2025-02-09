@@ -12,7 +12,7 @@ export async function ResultsScreen({ searchParams }: Props) {
   const balance = await useGetLamportsBalance(awaitedSearchParams.pk);
 
   return (
-    <p className="text-center">
+    <p className="text-center break-all">
       <SolBalance lamports={balance} />
     </p>
   );

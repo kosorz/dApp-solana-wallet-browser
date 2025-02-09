@@ -6,7 +6,7 @@ import { LuTriangleAlert } from "react-icons/lu";
 
 export default function Error({ reset }: { reset: () => void }) {
   return (
-    <div className="m-auto my-8">
+    <div className="m-auto">
       <div className="py-8 alert flex flex-col rounded-xl p-10 text-center items-center gap-7">
         <LuTriangleAlert className="h-24 w-24" />
         <Glowing className="font-bold text-5xl">Heads up!</Glowing>

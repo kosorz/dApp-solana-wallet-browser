@@ -42,7 +42,9 @@ export default function RootLayout({
               height={100}
             />
           </Link>
-          <section className="w-full max-w-2xl m-auto">{children}</section>
+          <section className="w-full max-w-2xl m-auto pt-10">
+            {children}
+          </section>
         </main>
       </body>
     </html>
