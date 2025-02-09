@@ -32,15 +32,10 @@ export default function RootLayout({
       >
         <main className="flex flex-col items-center align-top p-4 lg:p-8">
           <Link
-            className="cursor-pointer bg-primary-content mask mask-parallelogram-3 p-12"
+            className="cursor-pointer bg-primary-content mask mask-parallelogram-3 p-10"
             href={"/"}
           >
-            <Image
-              src={"/logo.svg"}
-              alt="Solana logo"
-              width={100}
-              height={100}
-            />
+            <Image src={"/logo.svg"} alt="Solana logo" width={70} height={70} />
           </Link>
           <section className="w-full max-w-2xl m-auto pt-10">
             {children}
